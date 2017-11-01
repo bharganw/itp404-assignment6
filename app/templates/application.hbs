@@ -1,0 +1,10 @@
+<h1> Sub-Reddit Search</h1>
+
+{{!-- <span>{{keywords}}</span> --}}
+
+<form onsubmit={{action "searchForSubreddits"}}>
+	{{input typ="text" value=keywords}}
+	<button type="submit">Search</button>
+</form>
+
+{{outlet}}
